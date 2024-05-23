@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plant Disease Detection</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <h1>Plant Disease Detection</h1>
+
+  <div class="container">
+    <div class="image-upload">
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="predictButton">Predict</button>
+    </div>
+
+    <div class="prediction-results">
+      <h2>Predicted Disease Category</h2>
+      <p id="predictedCategory"></p>
+
+      <h2>Causes of the Disease</h2>
+      <ul id="causesList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script> </body>
+</html>
